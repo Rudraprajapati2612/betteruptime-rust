@@ -1,0 +1,5 @@
+[workspace]
+resolver = "3"
+members = ["api", "store"]
+#[dependencies]
+diesel = { version = "2.2.0", features = ["postgres"] } 
